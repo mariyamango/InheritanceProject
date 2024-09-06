@@ -7,9 +7,9 @@ package org.example;
 //Step 5: Create instances of the "Vehicle" and "Car" classes and call the methods to output the information.
 
 public class Vehicle {
-    String manufacturer;
-    String model;
-    int yearOfManufacture;
+    protected String manufacturer;
+    protected String model;
+    protected int yearOfManufacture;
 
     public Vehicle(String manufacturer, String model, int yearOfManufacture) {
         this.manufacturer = manufacturer;

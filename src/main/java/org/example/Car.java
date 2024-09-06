@@ -7,7 +7,7 @@ package org.example;
 ////Step 5: Create instances of the "Vehicle" and "Car" classes and call the methods to output the information.
 
 public class Car extends Vehicle {
-    int numbersOfDoors;
+   private int numbersOfDoors;
 
     public Car(String manufacturer, String model, int yearOfManufacture, int numbersOfDoors) {
         super(manufacturer, model, yearOfManufacture);
